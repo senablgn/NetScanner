@@ -17,6 +17,7 @@ You can install the required libraries using the following command:
 
 ```bash
 pip install scapy
+```
  
 ##Usage
 To run NetScanner, use the following command in your terminal:
