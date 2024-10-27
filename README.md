@@ -15,5 +15,15 @@ This tool allows you to discover active devices on the specified network and opt
 ## Installation
 You can install the required libraries using the following command:
 
-```bash
+bash
 pip install scapy
+
+
+##Usage
+To run NetScanner, use the following command in your terminal:
+python netScanner.py -n [network_range] [-g]
+
+-n or --network: Specifies the network range to scan (e.g., 192.168.1.0/24).
+-g or --graph: Enables graphical output. If this parameter is not specified, graphical output will not be provided     
+
+
